@@ -1,5 +1,8 @@
 # VSH SHELL
 
+A custom Unix shell implementation written in C++17 with advanced terminal features, alias support, and external command execution capabilities.
+
+
 ## ✅ Requirements
 - C++17 or higher
 - make utility
@@ -13,6 +16,23 @@
 3. Then execute:
 ```bash
   ./app
+```
+
+## 🏗️ Project Structure
+
+```
+vsh/
+├── include/          # Header files
+│   ├── shell.hpp     # Main shell interface
+│   ├── terminal.hpp  # Terminal control functions
+│   └── alias.hpp     # Alias system interface
+├── src/              # Source files
+│   ├── shell.cpp     # Core shell implementation
+│   ├── terminal.cpp  # Terminal input handling
+│   └── alias.cpp     # Alias loading and management
+├── main.cpp          # Entry point
+├── Makefile          # Build configuration
+└── README.md         # This file
 ```
 
 ## Supported Commands (so far)
